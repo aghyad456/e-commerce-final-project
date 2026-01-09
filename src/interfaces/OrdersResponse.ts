@@ -5,7 +5,7 @@ import { AddressResponse } from "./AddressResponse";
 export interface Order {
   _id: string;
   products: Product[];
-  address: AddresResponse;
+  address: AddressResponse;
   total: number;
   status: string;
   createdAt: string;
