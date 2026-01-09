@@ -1,5 +1,6 @@
 import { Product } from "./product";
-import { AddresResponse } from "./AddressResponse";
+import { AddressResponse } from "./AddressResponse";
+
 
 export interface Order {
   _id: string;
